@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fest - Login 2022</title>
+    <link rel="stylesheet" href="design.css">       <!-- linking the css file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <!-- font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,300;1,600&display=swap" rel="stylesheet">
+
+<!-- connecting the google fonts(poppins) -->
+<script src="https://kit.fontawesome.com/3cf9519afc.js" crossorigin="anonymous"></script>      <!-- icon pack script -->
+
+<!-- icon pack link -->
+</head>
+<body>
+    <section class ="header" >
+        <nav>
+            
+            <a href="College-fest.html"><img src="images/cslogo.png" width="100" height="150"> </a>    <!-- college logo -->
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>                  <!-- icon -->   <!-- code to hide menu -->
+                <ul>
+                    <li><a href="">Home</a></li>                 <!-- navigation tags -->
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>      <!-- menu icon -->    <!-- code to open menu -->
+        </nav>
+        <div class = "text-box">                      <!-- text content -->
+            <h1>Login 2022</h1>        
+            <p>Greatest Event the College has yet to see Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut illo, quos, repudiandae omnis unde, culpa deserunt corrupti commodi provident vero architecto blanditiis corporis totam mollitia pariatur error ipsum soluta quibusdam.</p>
+     <a href="" class="hero-btn" >  Visit us to know more</a>
+        </div>
+        
+    </section>
+
+    
+
+<!-- javascript for toggele menu -->
+        
+    <script>
+var navLinks = document.getElementById("navlinks");        /* code to open and close menu bar icon */
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu ()
+{
+    navLinks.style.right = "-200px";
+}
+    </script>
+   
+   
+        
+   
+</body>
+</html> 
